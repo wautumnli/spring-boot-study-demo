@@ -1,19 +1,15 @@
-package com.ql.event;
+package com.ql.util;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableAsync;
 
 /**
  * Author： wanqiuli
- * DateTime: 2021/3/5 17:11
+ * DateTime: 2021/3/9 13:50
  */
-@EnableAsync
 @SpringBootApplication
-public class ApplicationRunner {
-
+public class SpringBootDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationRunner.class, args);
+        SpringApplication.run(SpringBootDemoApplication.class, args);
     }
-
 }

@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  # Mysql配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver # 连接驱动
+    url: jdbc:mysql://127.0.0.1:3306/q_test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai #连接地址
+    username: root # Mysql账号
+    password: root # Mysql密码
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml # Mybatis XML路径
